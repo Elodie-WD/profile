@@ -1,0 +1,142 @@
+*{
+  list-style: none;
+  text-decoration: none;
+
+}
+
+body{
+  background: rgb(158, 157, 157);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-style: 16px;
+}
+.container{
+  background: whitesmoke;
+  width: 700px;
+  height: 100%;
+  padding: 40px;
+  margin: 30px auto;
+}
+
+div{
+  padding: 30px;
+  margin: 20px;
+  background: white;
+  border-radius: 5px;
+}
+h1{
+  font-size: 32px;
+}
+h1, h2, h3{
+  font-family:'Rubik', sans-serif;
+  line-height: 20px;
+  color:rgb(133, 115, 212)
+}
+p{
+  font-size: 16px;
+  padding: 20px;
+}
+#img-circle{
+  border-radius: 50%;
+  margin: 20px;
+}
+#btn{
+  background-color: rgb(175, 123, 201) ;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+#btn:hover {
+  background-color: rgb(226, 149, 213);
+ }
+
+.list li a, i {
+  color: darkblue;
+  font-size: 20px;
+
+}
+.list li a, i:hover {
+  color: rgb(226, 149, 213);
+
+}
+#list > li{
+  display: inline-block;
+  margin: 10px;
+
+}
+.list ul{
+  padding-left: 0;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 450px;
+  }
+  div{
+    padding: 25px;
+    margin: 15px;
+  }
+  h1{
+    font-size: 32px;
+  }
+
+  p{
+    font-size: 0.8rem;
+    padding: 20px;
+  }
+  #btn{
+    color: darkblue;
+    padding: 10px;
+  }
+  #btn{
+    font-size: 0.8rem;
+  }
+  #img-circle{
+    width: 150px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  div{
+    padding: 20px;
+    margin: 20px;
+  }
+  h1{
+    font-size: 1.4rem;
+  }
+
+  h2, h3{
+    font-size: 1.2rem;
+  }
+  p{
+    font-size: 0.7rem;
+    padding: 20px;
+  }
+  #btn{
+    color: darkblue;
+    padding: 5px;
+  }
+  #btn{
+    font-size: 0.8rem;
+  }
+  #img-circle{
+    width: 130px;
+  }
+}
